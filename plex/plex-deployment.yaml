@@ -14,8 +14,6 @@ spec:
     spec:
       nodeSelector:
         fileserv: "true"
-      selector:
-        name: plex
       containers:
       - name: plex
         image: linuxserver/plex
